@@ -114,9 +114,9 @@ Then open `index.html` in your browser to start using the chatbot.
 
 Built with 💚 at [Hackathon Name or Institution]
 
-- 🎨 **Frontend & UI/UX** – [Your Name](https://github.com/yourusername)
-- 🧠 **Backend & AI Integration** – [Teammate Name](https://github.com/themate)
-- 📢 **Pitch, Flow & Docs** – [Your Team Name or other contributor names]
+- 🎨 **Frontend & UI/UX** – [MidhunRaj](https://github.com/MidhunRaj-J)
+- 🧠 **Backend & AI Integration** – [Teammate Name](https://github.com/yaadhuu)
+- 📢 **Pitch, Flow & Docs** – [Team NB]
 
 ---
 
