@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NeuroBridge</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #e8fdf5;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    .chat-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .chat-header {
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .chat-box {
+      height: 400px;
+      overflow-y: auto;
+      border-radius: 10px;
+      padding: 10px;
+      background: #f7f9fa;
+      margin-bottom: 15px;
+    }
+
+    .user-msg, .bot-msg {
+      max-width: 80%;
+      padding: 10px 15px;
+      border-radius: 15px;
+      margin: 8px 0;
+      display: inline-block;
+      clear: both;
+    }
+
+    .user-msg {
+      background-color: #d1e7dd;
+      float: right;
+      text-align: right;
+    }
+
+    .bot-msg {
+      background-color: #cfe2ff;
+      float: left;
+    }
+
+    #userInput {
+      border-radius: 12px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .send-btn {
+      border-radius: 12px;
+    }
+
+    .tts-btn {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <div class="chat-container">
+      <h2 class="chat-header">🤖 NeuroBridge</h2>
+      <p class="text-center text-muted mb-4">Not everyone can speak. Not everyone can type. But everyone deserves to be heard.</p>
+
+      <div id="chatBox" class="chat-box"></div>
+
+      <div class="input-group">
+        <input type="text" id="userInput" class="form-control" placeholder="Type here..." />
+        <button class="btn btn-primary send-btn" onclick="sendMessage()">Send</button>
+        <button class="btn btn-outline-secondary tts-btn" onclick="speakLast()">🔊</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const chatBox = document.getElementById("chatBox");
+
+    function appendMessage(text, sender) {
+      const msg = document.createElement("div");
+      msg.className = sender === "user" ? "user-msg" : "bot-msg";
+      msg.textContent = text;
+      chatBox.appendChild(msg);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    function sendMessage() {
+      const input = document.getElementById("userInput");
+      const message = input.value.trim();
+      if (!message) return;
+
+      appendMessage(message, "user");
+
+      // Simulate response - replace this with fetch from backend
+      setTimeout(() => {
+        const response = getBotResponse(message); // your backend will do this
+        appendMessage(response, "bot");
+        lastBotMessage = response;
+      }, 600);
+
+      input.value = "";
+    }
+
+    let lastBotMessage = "";
+
+    function speakLast() {
+      const speech = new SpeechSynthesisUtterance(lastBotMessage);
+      speech.lang = "en-US";
+      speech.rate = 1;
+      window.speechSynthesis.speak(speech);
+    }
+
+    // TEMP: basic rephrasing logic - replace with actual backend API call
+    function getBotResponse(msg) {
+      const lower = msg.toLowerCase();
+      if (lower.includes("pain")) return "I'm feeling pain. Where does it hurt?";
+      if (lower.includes("tired")) return "I understand you're tired. Please take a seat and rest.";
+      if (lower.includes("no food")) return "I'm hungry and would like something to eat.";
+      return "I'm here for you. Could you tell me more?";
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    background-color:#A1E8AF;
+    color:#747C92;
+}
+.card{
+    padding:15px;
+    height:90vh;
+    margin:15px;
+    color:#747C92;
+    background-color:#372772;
+
+}
+.subheading{
+    font-size:18px;
+    font-family:"Roboto";
+}

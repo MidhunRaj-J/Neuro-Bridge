@@ -1,0 +1,254 @@
+[
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! It's nice to meet you, Midhun Raj J. How can I assist you today?"
+  },
+  {
+    "role": "user",
+    "content": "& c:/Projects/Neuro-Bridge/.venv/Scripts/python.exe c:/Projects/Neuro-Bridge/Chatbot.py"
+  },
+  {
+    "role": "assistant",
+    "content": "It seems like you're running a Python script for a chatbot. Is there anything specific you'd like to know or discuss?"
+  },
+  {
+    "role": "user",
+    "content": "no food"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm hungry and would like something to eat."
+  },
+  {
+    "role": "user",
+    "content": "me go"
+  },
+  {
+    "role": "assistant",
+    "content": "I want to go somewhere or leave this place."
+  },
+  {
+    "role": "user",
+    "content": "& c:/Projects/Neuro-Bridge/.venv/Scripts/python.exe c:/Projects/Neuro-Bridge/Chatbot.py"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, could you try again or give a little more detail? It seems like you're running a Python script again, but I'm not sure what you're trying to communicate."
+  },
+  {
+    "role": "user",
+    "content": "i die"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm feeling overwhelmed and hopeless, and I need some support right now."
+  },
+  {
+    "role": "user",
+    "content": "who are u"
+  },
+  {
+    "role": "assistant",
+    "content": "I am Zephron, an AI communication assistant designed to help individuals with speech or cognitive disabilities express themselves clearly."
+  },
+  {
+    "role": "user",
+    "content": "who are you"
+  },
+  {
+    "role": "assistant",
+    "content": "I am Dr. Neuro, an advanced AI communication assistant designed to help individuals with speech or cognitive disabilities express themselves clearly."
+  },
+  {
+    "role": "user",
+    "content": "capital india?"
+  },
+  {
+    "role": "assistant",
+    "content": "You're asking about the capital of India. The answer is New Delhi."
+  },
+  {
+    "role": "user",
+    "content": "who is the chief minister of kerala"
+  },
+  {
+    "role": "assistant",
+    "content": "As of my knowledge cutoff, the Chief Minister of Kerala is Pinarayi Vijayan."
+  },
+  {
+    "role": "user",
+    "content": "me bad"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm feeling guilty or remorseful about something I've done."
+  },
+  {
+    "role": "user",
+    "content": "no touch"
+  },
+  {
+    "role": "assistant",
+    "content": "I don't want to be touched or I need some personal space."
+  },
+  {
+    "role": "user",
+    "content": "kill me"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm feeling extremely overwhelmed and desperate, and I need someone to talk to or get some help right now."
+  },
+  {
+    "role": "user",
+    "content": "me sleep"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm feeling tired and need to go to sleep."
+  },
+  {
+    "role": "user",
+    "content": "me no sleep"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm having trouble falling asleep or I'm feeling restless."
+  },
+  {
+    "role": "user",
+    "content": "ghost run"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, could you try again or give a little more detail? I'm not quite sure what you mean by \"ghost run\"."
+  },
+  {
+    "role": "user",
+    "content": "ghost, run"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm scared and feel like I need to get away from something that's frightening me."
+  },
+  {
+    "role": "user",
+    "content": "ghost run"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm imagining or seeing something that's frightening me, and it's making me feel like I need to run away."
+  },
+  {
+    "role": "user",
+    "content": "mom scare"
+  },
+  {
+    "role": "user",
+    "content": "scared, mom"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm scared, and I need my mom to comfort or help me."
+  },
+  {
+    "role": "user",
+    "content": "scared mom"
+  },
+  {
+    "role": "assistant",
+    "content": "My mom is scaring me, and I'm feeling frightened or intimidated."
+  },
+  {
+    "role": "user",
+    "content": "hungry food"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm hungry and would like some food, please."
+  },
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi! How are you doing today?"
+  },
+  {
+    "role": "user",
+    "content": "hi'"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi again!"
+  },
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi once more! Is there something on your mind that you'd like to talk about or ask?"
+  },
+  {
+    "role": "user",
+    "content": "hu"
+  },
+  {
+    "role": "assistant",
+    "content": "I think you meant to say \"hi\" again!"
+  },
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi again! If you're ready to talk about something, I'm here to listen and help."
+  },
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi again! Would you like to chat about something in particular or just say hi for now?"
+  },
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi again! I'm happy to chat with you, but if you're ready, I'd love to help with something specific or answer a question you might have."
+  },
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi again! You're welcome to say hi as many times as you'd like, but if you're feeling stuck or need help with something, just let me know and I'll do my best to assist you."
+  },
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi again! I'm here to help whenever you're ready. Would you like to talk about your day, ask a question, or explore a topic together?"
+  },
+  {
+    "role": "user",
+    "content": "me sleep"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm feeling tired and need to go to sleep."
+  }
+]
