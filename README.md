@@ -3,7 +3,7 @@
 
 **NeuroBridge** is an AI-powered, emotion-aware chatbot designed to support individuals with speech or cognitive disabilities. It transforms fragmented or minimal speech/text inputs into clear, empathetic responses. With voice input, rephrasing intelligence, and mood tracking, it bridges the communication gap for users who need it most.
 
-![NeuroBridge Banner](assets/banner.png) <!-- Optional: Add a banner image to make the repo stand out -->
+![NeuroBridge Banner](Frontend/logo.jpg) <!-- Optional: Add a banner image to make the repo stand out -->
 
 ---
 
@@ -100,22 +100,14 @@ Then open `index.html` in your browser to start using the chatbot.
 
 ---
 
-## 📸 Screenshots
 
-| 🏠 Home Page | 💬 Chat Interface | 📊 Mood Graph |
-|-------------|-------------------|----------------|
-| ![Home](screenshots/home.png) | ![Chat](screenshots/chat.png) | ![Mood](screenshots/moodgraph.png) |
-
-> Tip: Add these images in a `/screenshots` folder inside your repo.
-
----
 
 ## 👥 Team
 
 Built with 💚 at [Hackathon Name or Institution]
 
-- 🎨 **Frontend & UI/UX** – [MidhunRaj](https://github.com/MidhunRaj-J)
-- 🧠 **Backend & AI Integration** – [Teammate Name](https://github.com/yaadhuu)
+- 🎨 **Frontend & UI/UX** – [J Midhun Raj](https://github.com/MidhunRaj-J)
+- 🧠 **Backend & AI Integration** – [Yeadhu Krishnan](https://github.com/yaadhuu)
 - 📢 **Pitch, Flow & Docs** – [Team NB]
 
 ---
